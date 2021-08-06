@@ -1,13 +1,11 @@
-/**
- * 
- * @returns 
- */
-function Blog() {
-    return (
-      <div>
-        <h2>Blog</h2>
-      </div>
-    );
-  }
+import { Component } from 'react'
 
-export { Blog }
+class Blog extends Component {
+  render() {
+    return (
+      <div>Blog</div>
+    )
+  }
+}
+
+export default Blog
