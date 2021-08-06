@@ -1,4 +1,4 @@
-import React, { FC, Component } from 'react';
+import React, { Component } from 'react';
 import { Layout } from 'antd';
 import {
     BrowserRouter as Router,

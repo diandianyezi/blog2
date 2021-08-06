@@ -15,11 +15,13 @@ const routes: Array<IRoute> = [
     {
         path: "/about",
         name: '关于',
+        exact: true,
         component: About
     },
     {
         path: "/dashboard",
         name: 'Dashboard',
+        exact: true,
         children: [
             {
                 path: "/dashboard/blog",
